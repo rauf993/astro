@@ -100,6 +100,7 @@ const metadata = {
   <!-- Content Widget **************** -->
 
   <Content
+    id="features2"
     isReversed
     tagline="Explora la Historia"
     title="Un Viaje por la Historia del Fútbol: De sus Orígenes a la Actualidad"
@@ -139,6 +140,7 @@ const metadata = {
   <!-- Content Widget **************** -->
 
   <Content
+  id="Avances Tecnologicos"
   isAfterContent
   items={[
     {
@@ -222,59 +224,60 @@ image={{
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Most used widgets"
-    subtitle="Provides frequently used components for building websites using Tailwind CSS"
-    tagline="Components"
+    id="videogames"
+    title="Videojuegos de Fútbol Más Populares"
+    subtitle="Explora los componentes esenciales que hacen de estos juegos una experiencia inolvidable para los aficionados al fútbol"
+    tagline="Videojuegos"
     items={[
       {
-        title: 'Headers',
-        description: "Ever tried driving without GPS? Boom! That's why websites need headers for direction.",
-        icon: 'flat-color-icons:template',
+        title: 'FIFA',
+        description: "El titán de los simuladores de fútbol, ofreciendo una jugabilidad realista y ligas de todo el mundo.",
+        //icon: 'flat-color-icons:game-controller',
       },
       {
-        title: 'Heros',
+        title: 'Pro Evolution Soccer (PES)',
         description:
-          "Picture a superhero landing – epic, right? That's the job of a Hero section, making grand entrances!",
-        icon: 'flat-color-icons:gallery',
+          "Conocido por su tacto y precisión en el control del balón, PES ofrece una alternativa desafiante para los aficionados al fútbol.",
+        //icon: 'flat-color-icons:football',
       },
       {
-        title: 'Features',
+        title: 'Football Manager',
         description:
-          'Where websites strut their stuff and show off superpowers. No holding back on the bragging rights here!',
-        icon: 'flat-color-icons:approval',
+          '¿Te gusta la estrategia? Este juego te permite gestionar tu club favorito y llevarlo a la gloria desde la oficina del entrenador.',
+        //icon: 'flat-color-icons:manager',
       },
       {
-        title: 'Content',
+        title: 'Rocket League',
         description:
-          "Dive into the meat and potatoes of a site; without it, you'd just be window shopping. Content is king.",
-        icon: 'flat-color-icons:document',
+          "Una mezcla explosiva de coches y fútbol. ¡Vive la emoción de marcar goles a toda velocidad en arenas futuristas!",
+        //icon: 'flat-color-icons:rocket',
       },
       {
-        title: 'Call-to-Action',
+        title: 'FIFA Street',
         description:
-          'That enthusiastic friend who\'s always urging, "Do it! Do it!"? Yeah, that\'s this button nudging you towards adventure.',
-        icon: 'flat-color-icons:advertising',
+          'Explora el fútbol callejero con regates espectaculares y partidos en entornos urbanos únicos.',
+       // icon: 'flat-color-icons:street-view',
       },
       {
-        title: 'Pricing',
-        description: 'Behold the dessert menu of the website world. Tempting choices await, can you resist?',
-        icon: 'flat-color-icons:currency-exchange',
+        title: 'eFootball',
+        description: 'La evolución digital del fútbol, ofreciendo partidos rápidos y competencias en línea contra jugadores de todo el mundo.',
+        //icon: 'flat-color-icons:online-gaming',
       },
       {
-        title: 'Testimonial',
-        description: 'Step into the gossip corner! Here, other visitors spill the beans and share the juicy details.',
-        icon: 'flat-color-icons:voice-presentation',
+        title: 'Ultimate Team',
+        description: 'Forma tu equipo de ensueño combinando estrellas del pasado y del presente en este popular modo de FIFA.',
+       // icon: 'flat-color-icons:team',
       },
       {
-        title: 'Contact',
+        title: 'Career Mode',
         description:
-          'Like a digital mailbox, but faster! Drop a line, ask a question, or send a virtual high-five. Ding! Message in.',
-        icon: 'flat-color-icons:business-contact',
+          'Vive la carrera de un jugador desde sus inicios hasta convertirse en una leyenda mundial en este apasionante modo de juego.',
+        //icon: 'flat-color-icons:career',
       },
       {
-        title: 'Footers',
-        description: "The footer's like the credits of a movie but sprinkled with easter eggs. Time to hunt!",
-        icon: 'flat-color-icons:database',
+        title: 'Volta Football',
+        description: "Fútbol rápido y estilizado con un enfoque en el juego callejero y técnico. ¡Dale estilo a tus jugadas!",
+        //icon: 'flat-color-icons:dance',
       },
     ]}
   >
@@ -283,57 +286,11 @@ image={{
     </Fragment>
   </Features2>
 
+
   <!-- HighlightedPosts Widget ******* -->
 
-  <BlogLatestPosts
-    title="Find out more content in our Blog"
-    information={`The blog is used to display AstroWind documentation.
-                        Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
-                        Astro is a very interesting technology. Thanks.
-                `}
-  />
 
-  <!-- FAQs Widget ******************* -->
-
-  <FAQs
-    title="Frequently Asked Questions"
-    subtitle="Dive into the following questions to gain insights into the powerful features that AstroWind offers and how it can elevate your web development journey."
-    tagline="FAQs"
-    classes={{ container: 'max-w-6xl' }}
-    items={[
-      {
-        title: 'Why AstroWind?',
-        description:
-          "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
-      },
-      {
-        title: 'What do I need to start?',
-        description:
-          'Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.',
-      },
-      {
-        title: 'How to install the Astro + Tailwind CSS template?',
-        description:
-          "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.",
-      },
-      {
-        title: "What's something that you don't understand?",
-        description:
-          "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
-      },
-      {
-        title: 'What is something that you would like to try again?',
-        description:
-          "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
-      },
-      {
-        title: 'If you could only ask one question to each person you meet, what would that question be?',
-        description:
-          "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
-      },
-    ]}
-  />
-
+ 
   <!-- Stats Widget ****************** -->
 
   <Stats
@@ -348,6 +305,7 @@ image={{
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
+  id="cr7"
     actions={[
       {
         variant: 'primary',
